@@ -29,7 +29,7 @@ Run `drm_info | less` and find the appropriate connector.
 Update your cmdline:\
 (For GRUB) edit `/etc/default/grub`:\
 ```
-GRUB_CMDLINE_LINUX="<...> drm.edid_firmware=DP-1:edid/SIE-HMD09.bin"
+GRUB_CMDLINE_LINUX="<...> drm.edid_firmware=DP-1:edid/siehmd.bin"
 ```
 
 Reboot:\
