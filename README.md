@@ -13,7 +13,7 @@ move the binary to said folder:
 ```
 sudo mv <Path-to-binary> /usr/lib/firmware/edid/siehmd.bin
 ```
-(For Arch linux) Include the file in the initcpio:\
+(For Arch linux) Include the file in the initramfs:\
 in `/etc/mkinitcpio.conf`
 ```
 FILES=(/usr/lib/firmware/edid/siehmd.bin)
